@@ -1,25 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swipe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="sarms_comp-1-1.gif" translatesAutoresizingMaskIntoConstraints="NO" id="r2J-tD-iBZ" customClass="AnimatableImageView" customModule="Gifu">
+                                <rect key="frame" x="148" y="93" width="305" height="229"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="305" id="be8-nr-ZPB"/>
+                                    <constraint firstAttribute="height" constant="229" id="qE2-sT-2Id"/>
+                                    <constraint firstAttribute="width" secondItem="r2J-tD-iBZ" secondAttribute="height" multiplier="4:3" id="zq4-Sy-3vx"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10196078431372549" green="0.66274509803921566" blue="0.77647058823529413" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="r2J-tD-iBZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mgM-jd-NDU"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="FN7-jV-Oyf" appends="YES" id="ZFU-bh-JWH"/>
+                            <outletCollection property="gestureRecognizers" destination="KDb-gb-b6u" appends="YES" id="Xd1-a4-1zM"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="bike" destination="r2J-tD-iBZ" id="bQP-e8-wlh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="FN7-jV-Oyf">
+                    <connections>
+                        <action selector="SwipeToStart:" destination="BYZ-38-t0r" id="qAt-ZF-EqR"/>
+                    </connections>
+                </panGestureRecognizer>
+                <tapGestureRecognizer id="KDb-gb-b6u">
+                    <connections>
+                        <action selector="tapStarted:" destination="BYZ-38-t0r" id="3cV-Nr-dSN"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="222" y="417"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sarms_comp-1-1.gif" width="800" height="600"/>
+    </resources>
 </document>
