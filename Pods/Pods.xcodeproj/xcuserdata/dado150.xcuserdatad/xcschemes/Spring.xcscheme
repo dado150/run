@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4C96B90D4C73667610289572'
-               BlueprintName = 'Pods-swipe'
+               BlueprintIdentifier = '9C3D9C81CD13A159CC3A0EA2'
+               BlueprintName = 'Spring'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods_swipe.framework'>
+               BuildableName = 'Spring.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

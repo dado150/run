@@ -84,8 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-swipe/AngleGradientLayer.framework"
   install_framework "Pods-swipe/Gifu.framework"
+  install_framework "Pods-swipe/Spring.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-swipe/AngleGradientLayer.framework"
   install_framework "Pods-swipe/Gifu.framework"
+  install_framework "Pods-swipe/Spring.framework"
 fi

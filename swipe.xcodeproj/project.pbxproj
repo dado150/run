@@ -16,6 +16,12 @@
 		0B0CC3D31C8B68EE0095F3E1 /* swipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CC3D21C8B68EE0095F3E1 /* swipeTests.swift */; };
 		0B0CC3DE1C8B68EE0095F3E1 /* swipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CC3DD1C8B68EE0095F3E1 /* swipeUITests.swift */; };
 		0B0CC3EC1C8B77740095F3E1 /* sarms_comp-1-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0B0CC3EB1C8B77740095F3E1 /* sarms_comp-1-1.gif */; };
+		0B0CC3EF1C8BB21D0095F3E1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0CC3EE1C8BB21D0095F3E1 /* DetailViewController.swift */; };
+		0B1E2BFD1C8C5BA400A42BE9 /* bg_rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B1E2BFC1C8C5BA400A42BE9 /* bg_rain.jpg */; };
+		0BE08E1C1C8C65B8000C58D2 /* rain_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BE08E1B1C8C65B8000C58D2 /* rain_bg.jpg */; };
+		0BE08E1E1C8C6834000C58D2 /* rain_bg_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0BE08E1D1C8C6834000C58D2 /* rain_bg_2.jpg */; };
+		0BE08E221C8C89A4000C58D2 /* OpenSans700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BE08E1F1C8C6A33000C58D2 /* OpenSans700.ttf */; };
+		0BE08E231C8C89A4000C58D2 /* OpenSans300.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BE08E201C8C6A34000C58D2 /* OpenSans300.ttf */; };
 		F965C8094618167E214DE75F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A66519E9EEC0974808F1C /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +58,13 @@
 		0B0CC3DD1C8B68EE0095F3E1 /* swipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipeUITests.swift; sourceTree = "<group>"; };
 		0B0CC3DF1C8B68EE0095F3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B0CC3EB1C8B77740095F3E1 /* sarms_comp-1-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "sarms_comp-1-1.gif"; sourceTree = "<group>"; };
+		0B0CC3EE1C8BB21D0095F3E1 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0B1E2BFC1C8C5BA400A42BE9 /* bg_rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_rain.jpg; sourceTree = "<group>"; };
+		0BE08E1A1C8C62B0000C58D2 /* swipe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swipe-Bridging-Header.h"; sourceTree = "<group>"; };
+		0BE08E1B1C8C65B8000C58D2 /* rain_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain_bg.jpg; sourceTree = "<group>"; };
+		0BE08E1D1C8C6834000C58D2 /* rain_bg_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain_bg_2.jpg; sourceTree = "<group>"; };
+		0BE08E1F1C8C6A33000C58D2 /* OpenSans700.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenSans700.ttf; sourceTree = "<group>"; };
+		0BE08E201C8C6A34000C58D2 /* OpenSans300.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenSans300.ttf; sourceTree = "<group>"; };
 		206CB6632C850A408B352C13 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		26AAB1216223DF82731155D6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C15A66519E9EEC0974808F1C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,14 +121,17 @@
 		0B0CC3B91C8B68EE0095F3E1 /* swipe */ = {
 			isa = PBXGroup;
 			children = (
-				0B0CC3EB1C8B77740095F3E1 /* sarms_comp-1-1.gif */,
+				0BE08E211C8C6A39000C58D2 /* Fonts */,
+				0B1E2BFE1C8C5BA900A42BE9 /* Images */,
 				0B0CC3BA1C8B68EE0095F3E1 /* AppDelegate.swift */,
 				0B0CC3BC1C8B68EE0095F3E1 /* ViewController.swift */,
 				0B0CC3BE1C8B68EE0095F3E1 /* Main.storyboard */,
+				0B0CC3EE1C8BB21D0095F3E1 /* DetailViewController.swift */,
 				0B0CC3C41C8B68EE0095F3E1 /* Assets.xcassets */,
 				0B0CC3C61C8B68EE0095F3E1 /* LaunchScreen.storyboard */,
 				0B0CC3C91C8B68EE0095F3E1 /* Info.plist */,
 				0B0CC3C11C8B68EE0095F3E1 /* swipe.xcdatamodeld */,
+				0BE08E1A1C8C62B0000C58D2 /* swipe-Bridging-Header.h */,
 			);
 			path = swipe;
 			sourceTree = "<group>";
@@ -136,6 +152,26 @@
 				0B0CC3DF1C8B68EE0095F3E1 /* Info.plist */,
 			);
 			path = swipeUITests;
+			sourceTree = "<group>";
+		};
+		0B1E2BFE1C8C5BA900A42BE9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0BE08E1D1C8C6834000C58D2 /* rain_bg_2.jpg */,
+				0BE08E1B1C8C65B8000C58D2 /* rain_bg.jpg */,
+				0B1E2BFC1C8C5BA400A42BE9 /* bg_rain.jpg */,
+				0B0CC3EB1C8B77740095F3E1 /* sarms_comp-1-1.gif */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0BE08E211C8C6A39000C58D2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0BE08E1F1C8C6A33000C58D2 /* OpenSans700.ttf */,
+				0BE08E201C8C6A34000C58D2 /* OpenSans300.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		A16490674CAA77743FDF5DAC /* Frameworks */ = {
@@ -263,9 +299,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BE08E221C8C89A4000C58D2 /* OpenSans700.ttf in Resources */,
+				0BE08E231C8C89A4000C58D2 /* OpenSans300.ttf in Resources */,
+				0BE08E1E1C8C6834000C58D2 /* rain_bg_2.jpg in Resources */,
+				0B1E2BFD1C8C5BA400A42BE9 /* bg_rain.jpg in Resources */,
 				0B0CC3C81C8B68EE0095F3E1 /* LaunchScreen.storyboard in Resources */,
 				0B0CC3C51C8B68EE0095F3E1 /* Assets.xcassets in Resources */,
 				0B0CC3EC1C8B77740095F3E1 /* sarms_comp-1-1.gif in Resources */,
+				0BE08E1C1C8C65B8000C58D2 /* rain_bg.jpg in Resources */,
 				0B0CC3C01C8B68EE0095F3E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +383,7 @@
 				0B0CC3BD1C8B68EE0095F3E1 /* ViewController.swift in Sources */,
 				0B0CC3BB1C8B68EE0095F3E1 /* AppDelegate.swift in Sources */,
 				0B0CC3C31C8B68EE0095F3E1 /* swipe.xcdatamodeld in Sources */,
+				0B0CC3EF1C8BB21D0095F3E1 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,11 +526,14 @@
 			baseConfigurationReference = 26AAB1216223DF82731155D6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = swipe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.150up.swipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swipe/swipe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -497,11 +542,13 @@
 			baseConfigurationReference = 206CB6632C850A408B352C13 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = swipe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.150up.swipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swipe/swipe-Bridging-Header.h";
 			};
 			name = Release;
 		};

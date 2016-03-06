@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4C96B90D4C73667610289572'
-               BlueprintName = 'Pods-swipe'
+               BlueprintIdentifier = '34B26F85D43404ED67FC31A3'
+               BlueprintName = 'AngleGradientLayer'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods_swipe.framework'>
+               BuildableName = 'AngleGradientLayer.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

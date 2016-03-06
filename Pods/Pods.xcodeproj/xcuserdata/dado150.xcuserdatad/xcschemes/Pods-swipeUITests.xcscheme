@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1DBB5404AC2FEA3BDD9BC147'
+               BlueprintIdentifier = '9E40A8BE95FA2F2C4204093E'
                BlueprintName = 'Pods-swipeUITests'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_swipeUITests.framework'>
